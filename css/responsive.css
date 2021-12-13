@@ -1,0 +1,100 @@
+/* ------------------
+media query
+------------------ */
+
+/* overall */
+@media screen and (max-width: 1800px) {
+  .banner-content .banner-text {
+    margin-top: 0px;
+  }
+  .banner-content .banner-img {
+    margin-top: 0px;
+    flex: auto;
+  }
+  .banner-content {
+    padding-bottom: 100px;
+  }
+}
+
+/* ipad tablet */
+@media screen and (max-width: 1200px) {
+  .banner-text h1 {
+    font-size: 50px;
+  }
+  .banner-content {
+    justify-content: cen;
+  }
+  .banner-content .banner-img img {
+    width: 500px;
+  }
+  .title-text {
+    padding: 0 40px;
+  }
+  .team-social i {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background-color: white;
+    font-size: 13px;
+    border-radius: 50%;
+    color: darkblue;
+    text-align: center;
+  }
+}
+/*small tablet */
+@media screen and (max-width: 990px) {
+  .navbar {
+    background-color: white;
+  }
+  .nav-link {
+    color: black;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content .banner-text {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .banner-content .banner-img {
+    width: 700px;
+  }
+  .choose-paso {
+    margin: 40px 0;
+  }
+  .all-team-member-area {
+    margin-top: 0;
+  }
+  .form-margin {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 500px) {
+  .banner-text h1 {
+    font-size: 30px;
+  }
+
+  .banner-content {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .banner-content .banner-img img {
+    width: 300px;
+  }
+  .started-button {
+    font-size: 12px;
+    height: 35px;
+  }
+  .title-text {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .all-team-member-area .card {
+    margin: 0;
+  }
+}
